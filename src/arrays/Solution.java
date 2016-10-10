@@ -7,7 +7,7 @@ import java.math.*;
 import java.util.regex.*;
 
 public class Solution {
-
+Test
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int arr[][] = new int[6][6];
@@ -16,6 +16,7 @@ public class Solution {
                 arr[i][j] = in.nextInt();
             }
         }
+        
         int currentHigh = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++){
             if (i >= arr.length-2) continue;
