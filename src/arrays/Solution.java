@@ -7,7 +7,7 @@ import java.math.*;
 import java.util.regex.*;
 
 public class Solution {
-Test
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int arr[][] = new int[6][6];
